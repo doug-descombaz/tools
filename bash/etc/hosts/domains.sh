@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-address="0.0.0.0"
+address="0.0.0.0" #TODO: Maybe this should be an impossible address instead...
 
 ## 
 # Show usage
