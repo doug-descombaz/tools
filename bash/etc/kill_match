@@ -2,6 +2,8 @@
 
 # Kills any process that matches the text past in. 
 # I guess this could be dangerous, so use w/ caution, and not with elevated privileges.
+#
+# NOTE: I guess I didn't know pgrep, or pkill existed when I wrote this.
 function kill_match(){
   if [ -z "$1" ]; 
     then exit;
